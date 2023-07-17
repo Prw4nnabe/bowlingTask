@@ -17,7 +17,7 @@ for ($frame = 1; $frame <= 10; $frame++) {
         $game->addFrame("X");
         echo "Frame $frame: Strike!\n";
         echo "Frame Score: " . $game->getScore()[$frame - 1] . "\n\n";
-        continue; // Przechodzimy do kolejnego frame'u bez wykonywania kolejnych instrukcji
+        continue;
     }
 
     if ($frame === 10) {
